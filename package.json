@@ -1,0 +1,23 @@
+{
+  "name": "chat_tutorial_js",
+  "version": "1.0.0",
+  "description": "Las siguientes herramientas son multiplataforma y gratuitas - npm / yarn - Node.js   - Express.js   - socket.io - Jquery - Draw.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13",
+    "morgan": "^1.8.2",
+    "socket.io": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
